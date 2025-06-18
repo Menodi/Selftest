@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+font {
+  color: pink;
+  width: 50%;
+  font-weight: bold;
+}
+
+font{color:pink; width:50%; font-weight:bold;}
