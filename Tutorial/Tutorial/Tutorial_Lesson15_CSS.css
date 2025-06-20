@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  color:pink;
+}
+
+font {
+  color: pink;
+  width: 50%;
+  font-weight: bold;
+}
+
+font{color:pink; width:50%; font-weight:bold;}
+
+body{
+background-image:url("Images/hanguo.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
