@@ -10,7 +10,7 @@ font {
 }
 
 body {
-  background-image: url("Images/hanguo.jpg");
+  background-image: url("Images\hanguo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
