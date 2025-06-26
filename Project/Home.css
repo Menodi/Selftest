@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.menu_bar {
+    background-color: rgb(0, 76, 255);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu_bar ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover{
+    color:rgb(252, 122, 185);
+
+}
+
+.dropdown_menu{
+    display: none;
+}
+
+
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(0, 76, 255);
+}
+
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.dropdown_menu1{
+    display: none;
+}
+
+.dropdown_menu ul li:hover .dropdown_menu1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: rgb(0, 76, 255);
+}
+
+.Uni{
+    color: black;
+    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+    font-size: 1em;
+    color: black;
+    margin-left: 20px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  background-color: #f9f9f9;
+  gap: 40px;
+  flex-wrap: wrap;
+  height: calc(100vh-80px);
+}
+
+.intro-text {
+  flex: 1 1 50%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.intro-text h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.intro-text span {
+  color: #1e90ff;
+}
+
+.intro-text p {
+  line-height: 1.7;
+  color: #333;
+}
+
+.intro-image {
+  flex: 1 1 40%;
+}
+
+.intro-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.footer{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: red;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icons{
+    position: relative;
+    font-size: 25px;
+    margin-left: 25px;
+}
